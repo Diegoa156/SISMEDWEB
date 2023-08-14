@@ -1,0 +1,605 @@
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(16, 192, 231);
+    padding: 10px;
+}
+
+.logotipo {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    min-width: 350px;
+}
+
+.buscador input[type=text]:focus {
+    outline: none;
+}
+
+.lupa {
+    width: 30px;
+    height: auto;
+    margin: 0px -30px;
+    z-index: 2;
+}
+
+.btn-group-cabecera:hover {
+    color: white;
+    z-index: 2;
+}
+
+.btn-group {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-custom {
+    height: 50px;
+    width: auto;
+}
+
+#loginCustom {
+    background: rgb(248, 187, 20);
+}
+
+#btn-custom5 {
+    background: rgb(248, 187, 20);
+}
+
+.btn-custom2 {
+    height: auto;
+}
+
+.btn-custom:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn-custom2:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn:active {
+    background-color: #000;
+    color: #ffffff;
+}
+
+/* ESTA ES LA CONFIGURACION DEL CONTENEDOR DE ACCESIBILIDAD */
+
+.accessibility-bar {
+    position: fixed;
+    bottom: 395px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2px 5px 2px 5px; 
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+
+.accessibility-bar button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.nosotros_Navegacion {
+    text-decoration: none;
+    color: inherit; 
+}
+.nosotros_Navegacion:hover{
+    background-color: rgb(0, 0, 0) !important;
+    color: inherit; 
+}
+
+.nosotros_Navegacion:active{
+    background-color: rgb(0, 0, 0) !important;
+    color: inherit; 
+}
+
+/* ESTA ES LA CONFIGURACION DE LOS BOTONES DE LA BARRA DE ACCESIBILIDAD */
+
+.botoncito1:hover, .botoncito2:hover, .botoncito3:hover, .botoncito4:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    top: 550px;
+    margin: auto;
+    width: auto;
+    border-radius: 8px;
+}
+
+.btn-customInicioSesion {
+    height: 100%;
+}
+
+#cabecera2 {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 8px;
+    height: 60px;
+    margin: auto;
+    
+}
+
+.barraNavegacionFondo {
+    padding: 10px;
+    background-color: rgb(4, 188, 235);
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 18px;
+
+}
+
+.barraNavegacion {
+    height: auto;
+    padding: -15px;
+    
+}
+
+.separadorColor {
+    background: rgb(212, 212, 212);
+    padding: 0.3%;
+}
+
+/* AJUSTE DEL CARRUSEL */
+
+.carousel-inner {
+    height: 700px;
+}
+
+.columna2 {
+
+    background: rgb(189, 188, 188);
+    width: 32%;
+    padding: 0.5px;
+}
+
+
+.contenedorPrincipalTituloFormulario {
+    background-color: #4b92dc;
+    width: 100%;
+    flex: fixed;
+}
+
+.tituloformulario {
+    height: 70px;
+    width: 450px;
+    background: #FFE086;
+    border-radius: 28px;
+    float: right;
+    font-size: 35px;
+    padding: 10px 2px;
+    margin-top: -70px;
+    margin-right: 120px;
+}
+
+.logoformulario {
+    background: #FFE086;
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    float: left;
+    margin-top: -70px;
+}
+
+.formularioLogo img {
+    width: auto;
+    height: auto;
+}
+
+.backgroundFormulario {
+    background: rgb(248, 187, 20);
+    padding: 40px;
+    margin-top: 100px;
+    width: 60%;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.parrafo {
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    padding: 5%;
+    width: auto;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+}
+
+.columna {
+    background: rgb(4, 188, 235);
+    color: black;
+    font-size: 15px;
+    padding: -20px;
+
+}
+
+/* barra de navegación 2 */
+
+.menu2 {
+    background-color: rgb(16, 192, 231);
+    padding: 0.5%;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0px;
+}
+
+.btn-success {
+    background-color: white;
+
+}
+
+.columna1, .columna2, .columna3, .columna4 {
+    height: 100%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 8px;
+    border-width: 0px;
+    width: 250px;
+    margin: 30px -100px;
+}
+
+
+.columna1:hover {
+    background-color: #7ffed1;
+    border-color: #ffffff;
+    color: #000000;
+    border-width: 0px;
+}
+
+.columna2:hover {
+    background-color: #7ffed1;
+    border-color: #ffffff;
+    color: #000000;
+    border-width: 0px;
+}
+
+.columna3:hover {
+    background-color: #7ffed1;
+    border-color: #ffffff;
+    color: #000000;
+    border-width: 0px;
+}
+
+.columna4:hover {
+    background-color: #7ffed1;
+    border-color: #ffffff;
+    color: #000000;
+    border-width: 0px;
+}
+
+/*LISTA CONDICIONES CUESTIONARIO*/
+
+.tituloSeleccionCondicion {
+    background-color: #070707;
+    color: white;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    height: auto;
+    width: auto;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 10px
+}
+
+.tituloSubirArchivos {
+    background-color: #070707;
+    color: white;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    height: auto;
+    width: auto;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 10px
+}
+
+
+.listaSeleccionCondicion {
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+/*CUESTIONARIO CLIENTE*/
+
+.inputsCuestionario {
+    width: auto;
+    background: rgba(240, 240, 240, 0);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+
+.cuestinario {
+    border-radius: 8px;
+    height: 40px;
+    width: 310px;
+    margin: 5px 10px;
+    border-width: 1px;
+}
+
+
+.fechaNacimientoTitulo {
+    margin-left: -350px;
+}
+
+.fechaNacimiento {
+    background-color: #ff0101;
+    float: left;
+
+}
+
+.boton {
+    border-width: 0px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 10px;
+    margin: 5% 60% 5% 36%;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+
+
+}
+
+.boton:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-width: 0px;
+    position: relative;
+}
+
+.tituloTarjetaTwitter {
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedorTwitter {
+    background-color: #D4D4D4;
+    border-radius: 18px;
+    height: auto;
+    width: 500px;
+    float: right;
+    margin-top: -1469px;
+    padding: 20px;
+}
+
+
+
+.logoTwitter {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -10px;
+
+}
+
+#nombreCuenta {
+    color: rgb(124, 124, 124) !important; 
+    margin-left: 70px;
+    margin-top: -35px;
+
+}
+
+
+.contenedorChatbot {
+
+    right: 1em;
+    position: fixed;
+    bottom: 130px;
+    z-index: 10;
+}
+
+.ContenedorTerminos_Condiciones {
+
+    background-color: #D4D4D4;
+    border-radius: 18px;
+    height: auto;
+    width: 500px;
+    float: right;
+    margin-top: -805px;
+    padding: 20px;
+
+}
+
+.fondo_Parrafo_Terminos_Condiciones {
+
+    background-color: rgb(255, 255, 255);
+    height: 690px;
+    width: auto;
+    border-radius: 18px;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.parrafo_Terminos_Condiciones {
+    text-align: justify;
+
+}
+
+.imagenChatbot {
+    height: 90px;
+    width: 90px;
+    margin: auto;
+}
+
+.contenedorAccesibilidad {
+    right: 1em;
+    position: fixed;
+    bottom: 300px;
+    z-index: 10;
+}
+
+.contenedorAccesibilidad:hover .accessibility-bar {
+    visibility: visible;
+    border: 10px;
+    border-color: #7ffed1;
+}
+
+
+.imagenAccesibilidad {
+    height: 90px;
+    width: 90px;
+
+}
+
+.contenedorAlertas {
+    margin-top: 30px;
+    width: 55rem;
+}
+
+
+
+/* Main Footer */
+
+.separadorFooter {
+    background-color: #9E9E9E;
+    height: 10px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+footer .main-footer {
+    padding: 20px 20px 0px 10px;
+    height: 40%;
+    margin: 0%;
+    width: 100%;
+    background: #d4d4d4;
+    color: black;
+}
+
+
+/* Copy Right Footer */
+.footer-copyright {
+    background: #ffffff;
+    padding: 5px 0;
+    color: black;
+}
+
+.footer-copyright .logo {
+    display: inherit;
+}
+
+
+
+
+
+
+/* Footer 4 */
+.footer- .logo {
+    display: inline-block;
+}
+
+
+.typo-light h1, .typo-light h2, .typo-light h3, .typo-light h4, .typo-light h5, .typo-light h6, .typo-light p, .typo-light div, .typo-light span, .typo-light small {
+    color: #fff;
+}
+
+
+.FinalFooter {
+    background: #9e9e9e;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.contenedorFooter{
+    display: inline-block;
+    background-color: #d4d4d4;
+    width: 1300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 18px;
+
+}
+
+.contenedorQuienesSomos {
+    background-color: white;
+    border-radius: 8px;
+    width: 900px;
+    height: 90px;
+    float: right;
+    margin: -90px 20px 20px 20px;
+    
+}
+
+.quienesSomos{
+    text-align: center;
+    background-color: #646464;
+    border-radius: 8px 8px 0px 0px;
+    padding: 5px;
+    color: white; 
+}
+
+.parrafoQuienesSomos{
+    color: rgb(0, 0, 0);
+    text-justify: auto;
+    margin: 10px;
+    font-size: 12px;
+
+}
+
+.logoFooter {
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+
+}
+.contenedorContactos{
+    display: flex;
+    width: 900px;
+    height: 180px;
+    padding: 10px;
+    margin-left: 340px;
+
+}
+
+.contactenos {
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+
+.linea-vertical{
+    border-left: 2px solid #898989;
+    margin-left: 120px;
+}
+
+.redesSociales {
+    margin-top: 30px;
+    margin-left: 150px;
+}

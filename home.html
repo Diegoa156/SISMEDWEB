@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/formularioMultiStep.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script/formularioScript.js"></script>
+    
+</head>
+
+<!--Encabezado-->
+
+<header class="encabezado">
+  <img class="logotipo" src="img/sismedLogo.png" alt="logo">
+  <form class="buscador">
+    <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+    <img class="lupa" src="img/lupa.png" alt="lupa">
+  </form>
+
+  <!--BARRA DE NAVEGACIÓN PRINCIPAL-->
+
+  <div class="btn-group" role="group" aria-label="Basic mixed styles example" id="cabecera1">
+    <button type="button" class="btn btn-custom">Rastreo de pedidos</button>
+    <a href="login.html"><button type="button" class="btn btn-custom" id="loginCustom">Login  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+      <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    </svg></button></a>
+</header>
+
+
+  
+<div class="separadorColor"></div>
+
+
+
+
+<!--CARRUSEL DE LA CABECERA-->
+
+<div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/CARRUSEL_1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Compromiso</h5>
+        <p>nos comprometemos a ofrecerte un servicio de calidad.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/CARRUSEL_2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Bienestar</h5>
+        <p>nos importa tu salud por eso ofrecemos distintos canales de comunicación, para que nos cotacte las 24 horas
+          los 7 días de la semana.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/CARRUSEL_3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Prioridad</h5>
+        <p>Eres nuestra mayor prioridad, culaquier inquietud o duda lo puedes comunicar a través de nuestras redes
+          sociales.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<br>
+<!--BARRA DE NAVEGACIÓN SECUNDARIA-->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="col-sm-4 col-md-4 col-lg-12 col-xl-12">
+        <div class="barraNavegacionFondo">
+          <div class="btn-group " role="group" aria-label="Basic mixed styles example" id="cabecera2">
+            <button  type="button" class="btn btn-custom2"> Preguntas y respuestas</button>
+            <button type="button" class="btn btn-custom2">Afiliados</button>
+            <button type="button" class="btn btn-custom2">Linea de atencion</button>
+            <button type="button" class="btn btn-custom2"><a class="nosotros_Navegacion" href="Nosotros.html">Nosotros</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+  <!--Formulario 1-->
+
+  <section class="backgroundFormulario">
+    <div class="contenedorPrincipalTituloFormulario">
+      <h1 class="tituloformulario">Solicitud de medicamentos</h1>
+      <img class="logoformulario" src="img/imagenFormulario.png" alt="formularioLogo">
+    </div>
+    <class="formulario1" action="">
+      <p class="parrafo">¡Nuestro compromiso es contigo y con tu bienestar, En SISMED entendemos la importancia de
+        quedarse en casa cumpliendo con el aislamiento obligatorio, así como la de garantizar la disponibilidad y el
+        acceso a los medicamentos para todos. Por esa razón, creamos este canal para que de una manera fácil y rápida
+        agendes la entrega de tus medicamentos a domicilio. Ten en cuenta que este servicio está disponible únicamente
+        para usuarios que hagan parte de la población vulnerable al COVID-19.En SISMED #CuidamosDeTi.
+        <br><br>
+        Todos los pacientes mayores de 70 años de edad.
+        Pacientes entre 65 y 69 años con las siguientes condiciones de salud: a. Diabetes mellitus tipo 2, b.
+        Hipertensión arterial sistémica, c. Cáncer, d. VIH, e. Enfermedades huérfanas, f. Enfermedad renal crónica, g.
+        Cuidados paliativos, h. Salud mental, i. Pacientes con trasplante renal, hepático, médula ósea.
+        Gestantes de alto riego.
+        <br><br>
+        Estimado usuario por favor tener en cuenta que las fórmulas y/o volantes agendados deben tener 5 días o más de
+        vigencia para ser tramitados por este medio, de no ser así le sugerimos autorizar a un tercero para reclamar los
+        medicamentos en una Droguería SISMED, porque de lo contrario no podremos garantizar la entrega en vigencia del
+        volante. Recuerda que para recibir tus medicamentos en el momento indicado es importante prever por lo que
+        puedes agendar tus medicamentos hasta con un mes de anterioridad.
+
+      </p>
+
+      <div class="tituloSeleccionCondicion">
+        <h5><b>¡IMPORTANTE!</b> <br>Selecciona tu condición dentro de la población más vulnerable</h5>
+        <h7>*Si no haces parte de esta población tu domicilio no será tramitado*</h7>
+      </div>
+
+      <!--CASILLAS DE VERIFICACION DEL Formulario-->
+
+      <div class="listaSeleccionCondicion">
+        <div class="form-check">
+          <input class="form-check-input bg-dark" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Persona de la tercera edad
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input bg-dark" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Persona en condición de discapacidad
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input bg-dark" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Mujer en condición gestante o lactante
+          </label>
+        </div>
+      </div>
+
+      <form class="regForm" action="">
+        <div class="inputsCuestionario">
+          <input class="cuestinario" type="text" name="nombre" id="nombre" placeholder="Primer nombre*">
+          <input class="cuestinario" type="text" name="nombre2" id="nombre2" placeholder="Segundo nombre">
+          <br> <br>
+          <input class="cuestinario" type="text" name="apellido" id="apellido" placeholder="Primer Apellido*">
+          <input class="cuestinario" type="text" name="apellido2" id="apellido2" placeholder="Segundo Apellido">
+          <br> <br>
+          <select class="cuestinario" name="Selecciona el tipo Documento de identidad" id="documento">
+            <option value=>"Seleccione su tipo de documento"</option>
+            <option value="">Cedula de ciudadania</option>
+            <option value="">cedula de extranjeria</option>
+            <option value="">targeta de identidad</option>
+            <option value="">Registro civil</option>
+          </select>
+          <input class="cuestinario" type="text" name="docuumento" id="documento" placeholder="Numero de documento*">
+          <br> <br>
+
+          <!--opcion de elegir la fecha-->
+
+          <div class="fechaNacimientoTitulo"><label><b>Fecha de nacimiento</label></b>
+          </div>
+          <input class="cuestinario" id="calendario" type="date" id="nacimiento" name="trip-nacimiento"
+            placeholder="Fecha de nacimiento" value="01/03/2023" min="01/0/1753" max="01/12/205">
+          <input class="cuestinario" type="text" name="email" id="email" placeholder="correo electronico@*">
+          <input class="cuestinario" type="text" name="celular" id="celular" placeholder="Celular*">
+          <input class="cuestinario" type="text" name="telefono" id="telefono" placeholder="Telefono fijo">
+        </div>
+
+        <!--Aqui se suben los archivos del formulario-->
+
+        <div class="tituloSubirArchivos">
+          <h5><b>ADJUNTA TUS DOCUMENTOS</b></h5>
+          <h6>Sube un documento PFD, donde se evidencia  tu formula medica previamente autorizada y documento de identificacion.</h6>
+        </div>
+
+        <div class="listaSeleccionCondicion">
+          <div class="form-check">
+            <input type="file" id="file" name="file" multiple />
+          </div>
+          
+        </div>
+
+
+        <button class="boton" type="submit">Enviar</button>
+
+      </form>
+  </section>
+  <aside>
+
+    <div class="contenedorTwitter">
+      <h4 class="tituloTarjetaTwitter">¡Siguenos en nuestras redes sociales!</h4>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <aside>
+      <div class="ContenedorTerminos_Condiciones">    
+        <h4 class="tituloTarjetaTwitter">Terminos y condiciones del servicio</h4>
+          <div class="fondo_Parrafo_Terminos_Condiciones">
+            <p class="parrafo_Terminos_Condiciones">
+              Estos términos y condiciones (en adelante, los “Términos”) regulan el uso del servicio de medicamento a domicilio (en adelante, el “Servicio”) que ofrece la empresa SISMED (en adelante, la “Empresa”) a sus clientes (en adelante, los “Clientes” o “Usted”). Al solicitar el Servicio, Usted acepta quedar vinculado por estos Términos y cumplir con todas las leyes y normas aplicables. Si no está de acuerdo con estos Términos, no debe utilizar el Servicio.
+
+              El Servicio consiste en la entrega a domicilio de los medicamentos que Usted haya solicitado previamente a través de la plataforma web o móvil de la Empresa. Para poder acceder al Servicio, Usted debe cumplir con los siguientes requisitos:
+
+              Residir en el área de cobertura del Servicio, que puede consultar en la página web o la aplicación móvil de la Empresa.
+              Contar con una receta médica válida para los medicamentos que solicite, emitida por un profesional sanitario autorizado.
+              Usted es responsable de verificar que los datos que proporciona a la Empresa sean veraces, completos y precisos. La Empresa no se hace responsable por los errores, retrasos o incumplimientos que se deriven de una información incompleta o inexacta proporcionada por Usted. Asimismo, Usted es responsable de mantener actualizada su información en caso de que cambie.
+              Estos Términos se rigen por la ley colombiana y se someten a la jurisdicción de los tribunales competentes. Cualquier controversia o reclamación derivada del uso del Servicio deberá ser resuelta amistosamente entre las partes. En caso de no llegar a un acuerdo, las partes podrán acudir a los medios legales pertinentes.
+            </p>
+          </div>
+      </div>
+
+  </aside>
+</div>
+
+
+<div class="contenedorAlertas">
+
+              <!--Vista de verde fue exitoso tu formulario-->
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div>
+                    &nbsp; &nbsp; &nbsp; <strong>¡Envio exitoso!</strong> El formulario se ha enviado correctamente.
+                </div>
+              </div>
+
+              <!--Vista de naranja advertencia-->
+
+              <div class="alert alert-warning d-flex align-items-center" role="alert">
+                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div>
+                  &nbsp; &nbsp; &nbsp; <strong>¡Advertencia!</strong> No se ha diligenciado correctamente el formulario, intente de nuevo.
+                </div>
+              </div>
+
+              <!--Vista de roja ha habido un error-->
+
+              <div class="alert alert-danger d-flex align-items-center" role="alert">
+                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <div>
+                  &nbsp; &nbsp; &nbsp; <strong>¡Error!</strong> ha ocurrido un problema en el envio del formulario.
+                </div>
+</div>
+</div>
+
+</body>
+
+
+
+<div class="col-sm-4 col-md-4 col-lg-12 col-xl-12">
+  <div class="contenedorChatbot">
+    <img class="imagenChatbot" src="img/chatbot.png" alt="chatbot">
+  </div>
+</div> 
+
+<div class="col-sm-4 col-md-4 col-lg-12 col-xl-12">
+  <div class="contenedorAccesibilidad">
+    <img class="imagenAccesibilidad" src="img/accesibilidad.png" alt="accesibilidad">
+
+      <!-- Barra de Accesibilidad --> 
+        <div class="accessibility-bar">
+          <button class="botoncito1" id="contrast-btn">Cambiar Contraste</button>
+          <button class="botoncito2" id="font-size-btn">Tamaño de Letra</button>
+          <button class="botoncito3" id="zoom-in-btn">Aumentar Zoom</button>
+          <button class="botoncito4" id="zoom-out-btn">Reducir Zoom</button>
+        </div>
+  </div>
+</div>
+
+<!--AQUI COMIENZA EL FOOTER-->
+
+<div class="separadorFooter"></div>
+<footer id="footer" class="footer-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-lg-4- col-xl-4">
+
+        <div class="contenedorFooter">
+          <div class="widget subscribe no-box">
+            <img src="img/sismedLogo.png" width="100%" class="logoFooter">
+          </div>
+          <div class="contenedorQuienesSomos">
+            <p class="quienesSomos">¿Quienes somos?</p>
+            <p class="parrafoQuienesSomos">SISMED es una destacada empresa dedicada a la entrega de domicilio de
+              medicamentos en Colombia. Con años de experiencia en el sector farmacéutico, SISMED se ha convertido en un
+              referente en el mercado, brindando un servicio confiable y eficiente a sus clientes
+            </p>
+          </div>
+          <aside>
+            <div class="contenedorContactos">
+              <div class="contactenos">
+                <h6 class="widget-title">Contactanos<span></span></h6>
+                <ul class="menu-footer">
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg> 606 4356786</li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-phone-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
+                    </svg> +57 3958493</li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+                      <path
+                        d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+                    </svg> contacto@sismed.com</li>
+
+              </div>
+
+              <div class="linea-vertical"></div>
+              <div class="redesSociales">
+                <h6 class="widget-title">¡Siguenos en! <span></span></h6>
+                <ul class="menu-footer">
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg> @sismed</li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg> @sismed</li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg> @sismed</li>
+              </div>
+            </div>
+          </aside>
+          <p class="FinalFooter">SISMED v1.0.0 © 2023. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</html>
